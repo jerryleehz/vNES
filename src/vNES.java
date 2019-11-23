@@ -225,7 +225,7 @@ public class vNES extends Applet implements Runnable {
 
         tmp = getParameter("rom");
         if (tmp == null || tmp.equals("")) {
-            rom = "vnes.nes";
+            rom = "rom/[002]  桌面类 - 中国象棋.nes";//"vnes.nes";
         } else {
             rom = tmp;
         }

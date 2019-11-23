@@ -38,8 +38,8 @@ public class Globals {
     public static boolean enableSound = true;
     public static boolean focused = false;
 
-    public static HashMap keycodes = new HashMap(); //Java key codes
-    public static HashMap controls = new HashMap(); //vNES controls codes
+    public static HashMap<String, Integer> keycodes = new HashMap<>(); //Java key codes
+    public static HashMap<String, String> controls = new HashMap<>(); //vNES controls codes
 
     public static NES nes;
 
